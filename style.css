@@ -1,46 +1,110 @@
 .logo{
-      margin: auto;
-      width: 600px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.container{
+    width: 480px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 170px;
+}
+
+.inner_container{
+    width: 990px;
+    margin: auto;
+}
+
+nav a{
+   text-decoration: none;
+   color: #FEFEFE;
+   padding: 8px;
+   display: block;
+   transition: 0.5s;
+}
+
+nav a:hover{
+   background: #FEFEFE;
+   color: #4F2A26;
+}
+
+nav{
+   font-family: Copperplate Gothic Light;
+   font-size: 24px;
+   overflow: hidden;
+   background: #4F2A26;
+   margin-bottom: 100px;
+   position: fixed;
+   width: 100%;
+}
+
+nav li{
+   float: left;
+   list-style-type: none;
 }
 
 .Variety{
-
+    font-family: Copperplate Gothic Light;
+    font-size: 20px;
+    float: left;
+    width: 100%;
+    padding: 480px;
 }
 
 .History{
-
+   background-image: url(C:\Users\Owner\Desktop\pictures-lit/gahag-008613);
+   font-family: Copperplate Gothic Light;
+   font-size: 20px;
+   float: left;
+   width: 100%;
+   padding: 480px;
 }
 
 .his-left{
+    font-family: Copperplate Gothic Light;
     float: left;
-    width: 400px;
+    width: 600px;
 }
 
 .his-center{
+    font-family: Copperplate Gothic Light;
     float: left;
-    width: 400px;
-    margin-left: 40px;
+    width: 600px;
+    margin-left: 600px;
 }
 
 .his-right{
-    width: 400px;
+    font-family: Copperplate Gothic Light;
+    float: right;
+    width: 600px;
 }
 
 .Efficacy{
-
+   background-image: url(C:\Users\Owner\Desktop\pictures-lit/kl0017choco);
+   font-family: Copperplate Gothic Light;
+   font-size: 20px;
+   float: left;
+   width: 100%;
+   padding: 480px;
 }
 
 .eff-left{
+   font-family: Copperplate Gothic Light;
    float: left;
-   width: 400px;
+   width: 600px;
 }
 
 .eff-center{
+   font-family: Copperplate Gothic Light;
    float: left;
-   width: 400px;
-   margin-left: 40px;
+   width: 600px;
+   margin-left: 600px;
 }
 
 .eff-right{
-   width: 400px;
+   font-family: Copperplate Gothic Light;
+   float: right;
+   width: 600px;
 }
