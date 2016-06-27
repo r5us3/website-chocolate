@@ -81,24 +81,29 @@ nav li{
 .Variety{
     font-family: Copperplate Gothic Light;
     font-size: 50px;
+    color:  #FEFEFE;
     float: left;
     width: 100%;
-    padding: 100px;
+    padding: 0px;
 }
 
 .History{
-   background-image: url(C:\Users\Owner\Desktop\pictures-lit/gahag-008613);
+   background-image: url(pictures-lit/gahag-008613.jpg);
    background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
    font-family: Copperplate Gothic Light;
    font-size: 50px;
+   color:  #FEFEFE;
    float: left;
    width: 100%;
-   padding: 100px;
+   padding: 0px;
 }
 
 .his-left{
     font-family: Copperplate Gothic Light;
     font-size: 20px;
+    color: #4F2A26;
     float: left;
     width: 500px;
 }
@@ -106,6 +111,7 @@ nav li{
 .his-center{
     font-family: Copperplate Gothic Light;
     font-size: 20px;
+    color: #4F2A26;
     float: left;
     width: 500px;
     margin-left: 600px;
@@ -114,25 +120,28 @@ nav li{
 .his-right{
     float: right;
     font-size: 20px;
+    color: #4F2A26;
     font-family: Copperplate Gothic Light;
     width: 500px;
 }
 
 .Efficacy{
-   background-image: url(pictures-lit/kl0017choco.jpg);
+   background-image: url(pictures-lit/chocola-bottom.gif);
    background-size: cover;
-   background-repeat: repeat-y;
-   background-attachment: fixed;
+   background-repeat: no-repeat;
+   overflow: hidden;
    font-family: Copperplate Gothic Light;
    font-size: 50px;
+   color: #FEFEFE;
    float: left;
    width: 100%;
-   padding: 100px;
+   padding: 0px;
 }
 
 .eff-left{
    font-family: Copperplate Gothic Light;
    font-size: 20px;
+   font-color: #4F2A26
    float: left;
    width: 500px;
 }
@@ -140,6 +149,7 @@ nav li{
 .eff-center{
    font-family: Copperplate Gothic Light;
    font-size: 20px;
+   font-color: #4F2A26
    float: left;
    width: 500px;
    margin-left: 600px;
@@ -148,6 +158,7 @@ nav li{
 .eff-right{
    font-family: Copperplate Gothic Light;
    font-size: 20px;
+   font-color: #4F2A26
    float: right;
    width: 500px;
 }
