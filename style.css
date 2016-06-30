@@ -29,8 +29,15 @@ table{border-collapse:collapse;border-spacing:0}
 }
 /*# sourceMappingURL=sanitize.css.map */
 .logo{
-   overflow: hidden;
+    background-image: url(pictures-lit/chocola-world.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
     width: 100%;
+    padding: 0px;
+    font-family: Copperplate Gothic Light;
+    font-size: 100px;
+    color: #FEFEFE;
 }
 
 .container{
@@ -87,6 +94,31 @@ nav li{
     padding: 0px;
 }
 
+
+.var-fra{
+
+}
+
+.var-ame{
+
+}
+
+.var-ita{
+
+}
+
+.var-spa{
+
+}
+
+.var-swi{
+
+}
+
+.var-can{
+
+}
+
 .History{
    background-image: url(pictures-lit/gahag-008613.jpg);
    background-size: cover;
@@ -100,29 +132,14 @@ nav li{
    padding: 0px;
 }
 
-.his-left{
-    font-family: Copperplate Gothic Light;
-    font-size: 20px;
+.col-3{
+    font-family: 明朝;
+    font-size: 15px;
     color: #4F2A26;
     float: left;
-    width: 500px;
-}
-
-.his-center{
-    font-family: Copperplate Gothic Light;
-    font-size: 20px;
-    color: #4F2A26;
-    float: left;
-    width: 500px;
-    margin-left: 600px;
-}
-
-.his-right{
-    float: right;
-    font-size: 20px;
-    color: #4F2A26;
-    font-family: Copperplate Gothic Light;
-    width: 500px;
+    width: 400px;
+    padding: 50px;
+    overflow: hidden;
 }
 
 .Efficacy{
@@ -138,27 +155,12 @@ nav li{
    padding: 0px;
 }
 
-.eff-left{
+.col-4{
    font-family: Copperplate Gothic Light;
-   font-size: 20px;
-   font-color: #4F2A26
+   font-size: 15px;
+   font-color: #4F2A26;
    float: left;
-   width: 500px;
-}
-
-.eff-center{
-   font-family: Copperplate Gothic Light;
-   font-size: 20px;
-   font-color: #4F2A26
-   float: left;
-   width: 500px;
-   margin-left: 600px;
-}
-
-.eff-right{
-   font-family: Copperplate Gothic Light;
-   font-size: 20px;
-   font-color: #4F2A26
-   float: right;
-   width: 500px;
+   width: 400px;
+   padding: 50px;
+   overflow: hidden;
 }
