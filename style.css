@@ -40,14 +40,14 @@ body{
     color: #FEFEFE;
 }
 
-.relative{
+.relative-0{
     position: relative;
 }
 
-.absolute{
+.absolute-0{
+    text-align: center;
     position: absolute;
     bottom: 60%;
-    text-align: center;
 }
 
 .container{
@@ -104,9 +104,46 @@ nav li{
     padding: 0px;
 }
 
+.relative-1{
+    position: relative;
+}
+
+.absolute-1{
+    text-align: center;
+    position: absolute;
+    bottom: 25%;
+}
+
+
+b{
+    background: #000000 transparent;
+    color: #FEFEFE;
+    font-size: 25px;
+    border: 1px solid #FEFEFE;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.3s;
+    display: block;
+    width: 250px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #000000 transparent;
+}
+
+b:hover{
+    background: #FEFEFE;
+    color: #A38B77;
+    transition: 1s;
+    transition: 0.3s;
+    margin-top: 9px;
+    border-bottom-width: 5px;
+}
+
 .style-f  .caption {
     height: 100%;
     width: 50%;
+    text-align: justify;
 
     opacity: 0;
 
@@ -118,12 +155,13 @@ nav li{
     -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
     transition: transform 0.4s, opacity 0.1s 0.3s;
 
-    -webkit-transform-origin: 50 0;
-    -moz-transform-origin: 50 0;
-    transform-origin: 50 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
 }
 
 .style-f  .cover {
+    float: none;
   　　-webkit-perspective: 1700px;
     -moz-perspective: 1700px;
     perspective: 1700px;
