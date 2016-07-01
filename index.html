@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
   <title>Chocolat World!</title>
+  <script src="js/jquery-3.0.0.min.js"></script>
 </head>
-<body bgcolor="A38B77">
+<body>
+
   <div class="logo">
-    <img src="pictures-lit/chocola-world.gif" alt="" width="5000">
-    <h1>Chocolat World</h1>
+    <figure class="relative">
+     <img src="pictures-lit/chocola-world.gif" alt="" width="5000">
+     <figcaption class="absolute"><h1>Chocolat World</h1></figcaption>
+    </figure>
   </div>
+
   <nav>
     <ul class="inner_container">
       <li><a href="#Var">Variety</a></li>
@@ -17,38 +22,100 @@
       <li><a href="#Eff">Efficacy</a></li>
     <ul>
   </nav>
+
   <div class="Variety">
     <h3 id="Var"></h3>
     <h1>Variety</h1>
 
+    <ul class="box style-f">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/Flag_of_France.svg.png" alt="" width="100">
+          <div class="caption">
+            <h3>France</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="box style-a">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/us-flag-inverted-740x400-740x400.png" alt="" width="100">
+          <div class="caption">
+            <h3>America</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="box style-i">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/2.png" alt="" width="100">
+          <div class="caption">
+            <h3>Italy</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="boxrtyle-sp">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/Flag_of_Spain.svg.png" alt="" width="100">
+          <div class="caption">
+            <h3>Spain</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="box style-sw">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/1.png" alt="" width="100">
+          <div class="caption">
+            <h3>Switzerland</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="box style-c">
+      <li>
+        <div class="cover">
+          <img src="pictures-lit/ダウンロード.png" alt="" width="100">
+          <div class="caption">
+            <h3>Canada</h3>
+          </div>
+        </div>
+      </li>
+    </ul>
+
     <div class="var-fra">
-     <img src="" alt="">
      <h2>France</h2>
+     <img src="pictures-lit/" alt="" width="100">
     </div>
 
     <div class="var-ame">
-     <img src="" alt="">
-     <h2>America</h2>
+      <h2>America</h2>
+     <img src="pictures-lit/" alt="" width="100">
     </div>
 
     <div class="var-ita">
-      <img src="" alt="">
       <h2>Italy</h2>
+      <img src="pictures-lit/" alt="" width="100">
     </div>
 
     <div class="var-spa">
-      <img src="" alt="">
       <h2>Spain</h2>
+      <img src="pictures-lit/" alt="" width="100">
     </div>
 
     <div class="swi">
-      <img src="" alt="">
       <h2>Switzerland</h2>
+      <img src="pictures-lit/" alt="" width="100">
     </div>
 
     <div class="var-can">
-      <img src="" alt="">
       <h2>Canada</h2>
+      <img src="pictures-lit/" alt="" width="100">
     </div>
   </div>
 
@@ -57,7 +124,7 @@
     <h1>History</h1>
 
      <div class="col-3">
-       <img src="pictures-lit/600266322f6e97b35dc3f4e22547e4ec.JPG" alt="" width="400">
+       <img src="pictures-lit/600266322f6e97b35dc3f4e22547e4ec.JPG" alt="" width="550">
        <h2>始まり</h2>
        <p>チョコレートはメソアメリカで生まれました。<br>
          メソアメリカは、現在のメキシコ南部、中央アメリカなどの地域で、農耕文化やマヤ、アステカなど独自の高度な文明が繁栄しました。<br>
@@ -66,20 +133,18 @@
       </div>
 
     <div class="col-3">
-      <img src="pictures-lit/normal.JPG" alt="" width="400">
+      <img src="pictures-lit/normal.JPG" alt="" width="470">
        <h2>伝来</h2>
         <p>16世紀～19世紀にスペインから欧州各地へ伝播する過程については諸説があります。<br>
          互いに国境を接しており、多くの人の行き来があり、また聖職者や修道院組織の交流があり、各国・各地域へ伝播したものと思われます。<br>
-         日本にチョコレートが伝わったのは江戸時代のことです。<br>
-         寛政9(1797)年3月晦日、出島の阿蘭陀人から貰い請けて届け出た品物の中に、“しょくらあと　六つ”の記載があります。<br>
-         これが史料に記された日本で最初のチョコレートです。</p>
+         日本に伝わったのは寛政9(1797)年3月晦日、出島の阿蘭陀人から貰い請けて届け出た品物の中に、“しょくらあと　六つ”の記載がありました。</p>
      </div>
 
      <div class="col-3">
-       <img src="pictures-lit/photo_46.JPG" alt="" width="300">
+       <img src="pictures-lit/lct13-02.jpg" alt="" width="470">
        <h2>飲み物から食べ物へ</h2>
-       <p>チョコレートは長い間、飲み物として愛されてきましたが、ココアバターが入っているため大変濃厚なものでした。<br>
-         18世紀中ごろまでは飲みにくさを緩和するために、デンプンなどの粉を混ぜて余分な脂肪分を中和するのが普通でした。<br>
+       <p>チョコレートは長い間飲み物として愛されてきましたが、ココアバターが入っていて大変濃厚なものでした。<br>
+         18世紀中ごろまでは飲みにくさを緩和するため、デンプンなどの粉を混ぜて余分な脂肪分を中和するのが普通でした。<br>
          しかし、1800年代になると、チョコレートの4大発明といわれるものをはじめとした多くの技術革新が行われ、また、食べるチョコレートが考案されました。</p>
       </div>
     </div>
@@ -88,32 +153,33 @@
     <h3 id="Eff"></h3>
     <h1>Efficacy</h1>
 
-     <div class="col-4">
-       <img src="pictures-lit/w621_______.JPG" alt="" width="400">
+     <div class="col-3">
+       <img src="pictures-lit/w621_______.JPG" alt="" width="540">
        <h2>太りにくい</h2>
-       <p>ダイエットの大敵だと思われがちなチョコレートですが、実は最近チョコレートダイエットというダイエット方法が注目を集めています。<br>
-         チョコレートは高カロリーですが、それは砂糖とカカオバターによるもので、カカオバター自体の脂肪は溜まりにくいんです。<br>
-         しかも、チョコレートには脂肪分解のはたらきもあるんです。<br>
-         ダイエット中でも甘いものが定期的に食べられることから、他の間食を食べなくても満足できたり、我慢による反動の食べ過ぎがないという効果が出ています。</p>
+       <p>最近チョコレートダイエットというダイエット方法が注目を集めています。<br>
+         チョコレートは高カロリーですが、それはカカオバターによるもので、カカオバター自体の脂肪は溜まりにくいんです。<br>
+         しかも、チョコレートには脂肪分解のはたらきもあります。<br>
+         ダイエット中でも甘いものが定期的に食べられることから、間食を食べなくても満足できたり、我慢による反動の食べ過ぎがないという効果が出ています。</p>
      </div>
 
-     <div class="col-4">
+     <div class="col-3">
        <img src="pictures-lit/20150507_11801d.JPG" alt="" width="400">
        <h2>免疫力の向上</h2>
        <p>チョコレートはカルシウム、マグネシウム、鉄、亜鉛などのミネラル類を豊富に含む栄養バランスのとれた食品です。<br>
-         とくにカルシウムとマグネシウムのバランスがよいです。<br>
-         ただし、食べすぎはダメ。1日30～90をグラム目安にすればいいでしょう。
-         ダークチョコレートやローチョコレートには、食物繊維も含まれており、アーモンドなどと一緒に取るとミネラルも得られます。<br>
-         2、3かけらであれば毎日とっても問題なく効果が得られます。</p>
+         マグネシウム不足は心臓病の危機を増加することが知られています。<br>
+         ダークチョコレートやローチョコレートには、食物繊維も含まれており、アーモンドなどと一緒に取るとミネラルも得られます。</p>
      </div>
 
-     <div class="col-4">
+     <div class="col-3">
        <img src="pictures-lit/d98ba4e1bd679d651e08136e2941d8a6.JPG" alt="" width="400">
        <h2>美肌効果</h2>
        <p>カカオプロテインは腸内環境を整え便秘を解消します。便秘が解消されれば腸内に有害物質が発生しなくなり、肌の不調も改善されます。<br>
-         また、肌のターンオーバーも正常になるため、シミにも効果的だと言われています。<br>
-         カカオポリフェノールには抗酸化作用があるため、シミやシワなどの老化の原因となる過剰な活性酸素を除去する働きがあります。<br>
-         カカオプロテインとカカオポリフェノールの力で肌を健康に導いてくれているのです。</p>
+         また、肌のターンオーバーも正常になるため、<br>シミにも効果的だと言われています。<br>
+         カカオポリフェノールには抗酸化作用があるため、シミやシワなどの老化の原因となる過剰な活性酸素を除去する働きがあります。</p>
+     </div>
+
+     <div class="bottom">
+       <img src="pictures-lit/kl0017choco.gif" alt="" width="">
      </div>
   </div>
 </body>
