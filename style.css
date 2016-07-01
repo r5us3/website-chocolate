@@ -106,11 +106,13 @@ nav li{
 
 .relative-1{
     position: relative;
+    top: 0;
 }
 
 .absolute-1{
     text-align: center;
     position: absolute;
+    top: 0;
     bottom: 25%;
 }
 
@@ -145,22 +147,27 @@ b:hover{
     width: 50%;
     text-align: justify;
 
+    /*　透明にする　*/
     opacity: 0;
 
+　　　/*　紺色部分のY軸が‐90度隠れてる状態　*/
     -webkit-transform: rotateY(-90deg);
     -moz-transform: rotateY(-90deg);
     transform: rotateY(-90deg);
 
+　　　/*　動きをなめらかに　*/
     -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
     -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
     transition: transform 0.4s, opacity 0.1s 0.3s;
 
+    /*　transformが始まる原点の位置を設定する　*/
     -webkit-transform-origin: 0 0;
     -moz-transform-origin: 0 0;
     transform-origin: 0 0;
 }
 
 .style-f  .cover {
+    /*　画像の奥行の深さを指定　*/
     float: none;
   　　-webkit-perspective: 1700px;
     -moz-perspective: 1700px;
@@ -171,17 +178,39 @@ b:hover{
     perspective-origin: left;
 }
 
+.style-f   .cover img{
+    /*　動きをなめらかに　*/
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transitio: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.style-f  .cover > div {
+     /*はみ出した部分を隠す*/
+     overflow: hidden;
+}
+
 .style-f  .cover:hover  .caption {
     /*　透明だったものを表示させる　*/
     opacity: 1;
 
+　　　/*　紺色部分のY軸を０度に戻す(紺色が)全部見えてる状態　*/
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     transform: rotateY(0deg);
 
+　　　/*　動きをなめらかに　*/
     -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
     -moz-transition: -moz-transform 0.4s, opacity 0.1s;
     transition: transform 0.4s, opacity 0.1s;
+}
+
+.style-f  .cover:hover  img{
+
+     /*画像を横にずらす*/
+     -webkit-transform: translateX(24%);
+     -moz-transform: translateX(25%);
+     transform: translateX(25%);
 }
 
 .History{
